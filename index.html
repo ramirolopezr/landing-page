@@ -1,105 +1,186 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Marketiniate</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="header" class="header">
-        <img class="header__img"id="header-img" src="./asets/marketing-de-medios-sociales.svg" alt="logo agencia">
-        <h1>Marketiniate</h1>
-        <nav  class="header__nav" id="nav-bar">
+      <img
+        class="header__img"
+        id="header-img"
+        src="./asets/marketing-de-medios-sociales.svg"
+        alt="logo agencia"
+      />
+      <h1>Marketiniate</h1>
+      <nav class="header__nav" id="nav-bar">
         <ul>
-            <li class="nav-link"><a href="#form">Contactanos</a></li>
-            <li class="nav-link"><a href="#quehacemos">¿Que hacemos?</a></li>
-            <li class="nav-link"><a href="#video">Planes</a></li>
+          <li><a class="nav-link" href="#section-form">Contactanos</a></li>
+          <li><a class="nav-link" href="#quehacemos">¿Que hacemos?</a></li>
+          <li><a class="nav-link" href="#plans">Planes</a></li>
         </ul>
-    </nav>
+      </nav>
     </header>
+
     <section class="beneficios">
-        <div class="beneficios__items"><img src="./asets/crecimiento.svg" alt="crecimiento">
-            <p id="description" >Hacemos crecer tu negocio digital y lo adaptamos a los nuevos paradigmas para que siempre esté actualizado.</p>
-        </div>
-        <div class="beneficios__items"><img src="./asets/vision.svg" alt="vision">
-            <p>Estamos en conestante aprendizaje, y pensando nuevas ideas de marketing, publicidad y comunicación para aplicar a tu negocio.</p>
-        </div>
-        <div class="beneficios__items"><img src="./asets/informe-de-venta.svg" alt="informe-de-venta">
-            <p>Para que veas los avances, según tu plan, nos mantenemos en contacto y preparamos informes estadisticos para que juntos analicemos y sigamos creciendo.</p>
-        </div>
+      <div class="beneficios__items">
+        <img src="./asets/crecimiento.svg" alt="crecimiento" />
+        <p id="description">
+          Hacemos crecer tu negocio digital y lo adaptamos a los nuevos
+          paradigmas para que siempre esté actualizado.
+        </p>
+      </div>
+      <div class="beneficios__items">
+        <img src="./asets/vision.svg" alt="vision" />
+        <p>
+          Estamos en conestante aprendizaje, y pensando nuevas ideas de
+          marketing, publicidad y comunicación para aplicar a tu negocio.
+        </p>
+      </div>
+      <div class="beneficios__items">
+        <img src="./asets/informe-de-venta.svg" alt="informe-de-venta" />
+        <p>
+          Para que veas los avances, según tu plan, nos mantenemos en contacto y
+          preparamos informes estadisticos para que juntos analicemos y sigamos
+          creciendo.
+        </p>
+      </div>
     </section>
-    <section class="video" >
-        <h3 id="quehacemos">¿Que hacemos?</h3>
-        <iframe class="video__servicios" id="video" width="560" height="315" src="https://www.youtube.com/embed/M6gojdqoeAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section id="quehacemos" class="video">
+      <h3>¿Que hacemos?</h3>
+      <iframe
+        class="video__servicios"
+        width="560"
+        id="video"
+        height="315"
+        src="https://www.youtube.com/embed/M6gojdqoeAA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
     </section>
     <section class="plans" id="plans">
-        <div class="plans__text">
-            <h5>Plan básico</h5>
-            <ul>
-                <li>- Manejo de redes sociales.</li>
-                <li>- 2 publicaciones y 10 historias por semana.</li>
-                <li>- Informes mensuales.</li>
-            </ul>
-            <h3>$9000</h3> <p>por mes</p>
-        </div>
-        <div class="plans__text">
-            <h5>Plan medio</h5>
-            <ul>
-                <li>- Manejo de redes sociales.</li>
-                <li>- 5 publicaciones y 25 historias por semana.</li>
-                <li>- Informes por quincena.</li>
-                <li>- Manejo de campañas publicitarias.</li>
-            </ul>
-            <h3>$15.000</h3> <p>por mes</p>
-        </div>
-        <div class="plans__text">
-            <h5>Plan full</h5>
-            <ul>
-                <li>- Manejo de redes sociales.</li>
-                <li>- 5 publicaciones y 30 historias por semana.</li>
-                <li>- Informes semanales.</li>
-                <li>- Manejo de campañas publicitarias.</li>
-                <li>- Desarrollo y mantenimiento de pagina web.</li>
-            </ul>
-            <h3>$22.000</h3> <p>por mes</p>
-        </div>
+      <div class="plans__text">
+        <h5>Plan básico</h5>
+        <ul>
+          <li>- Manejo de redes sociales.</li>
+          <li>- 2 publicaciones y 10 historias por semana.</li>
+          <li>- Informes mensuales.</li>
+        </ul>
+        <h3>$9000</h3>
+        <p>por mes</p>
+      </div>
+      <div class="plans__text">
+        <h5>Plan medio</h5>
+        <ul>
+          <li>- Manejo de redes sociales.</li>
+          <li>- 5 publicaciones y 25 historias por semana.</li>
+          <li>- Informes por quincena.</li>
+          <li>- Manejo de campañas publicitarias.</li>
+        </ul>
+        <h3>$15.000</h3>
+        <p>por mes</p>
+      </div>
+      <div class="plans__text">
+        <h5>Plan full</h5>
+        <ul>
+          <li>- Manejo de redes sociales.</li>
+          <li>- 5 publicaciones y 30 historias por semana.</li>
+          <li>- Informes semanales.</li>
+          <li>- Manejo de campañas publicitarias.</li>
+          <li>- Desarrollo y mantenimiento de pagina web.</li>
+        </ul>
+        <h3>$22.000</h3>
+        <p>por mes</p>
+      </div>
     </section>
-    <section class="formulario" >
-        <h1 class="formulario__titulo" id="title">Servicios de marketing digital sin limites</h1>
-        <form   class="formulario__contenido" action="contacto" id="form">
-            <label for="name" id="name-label">
-                <span><h5>Tu nombre</h5></span>
-                <input id="name" type="text" required placeholder="Tu nombre" name="name"/>
-            </label>
-            <label for="phone-number" id="number-label">
-                <span><h5>Número de teléfono</h5></span>
-                <input id="number" type="number" required placeholder="Tu telefono" name="phone-number" min="1000000" max="99999999999999"/>
-            </label>
-            <label for="mail" id="email-label">
-                <span><h5>Mail</h5></span>
-            <input   type="email" id="email" placeholder="Tu mail actual"  autocomplete="email" name="Mail" required />
-            </label>
-            <label class="formulario__contenido-submit" for="submit">
-                <input id="submit" type="submit" value="Consultar" placeholder="Consultar" name="Enviar">
-            </label>
-        </form>
+    <section class="formulario" id="section-form">
+      <h1 class="formulario__titulo" id="title">
+        Servicios de marketing digital sin limites
+      </h1>
+      <form
+        class="formulario__contenido"
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+      >
+        <label for="name" id="name-label">
+          <span><h5>Tu nombre</h5></span>
+          <input
+            id="name"
+            type="text"
+            required
+            placeholder="Tu nombre"
+            name="name"
+          />
+        </label>
+        <label for="phone-number" id="number-label">
+          <span><h5>Número de teléfono</h5></span>
+          <input
+            id="number"
+            type="number"
+            required
+            placeholder="Tu telefono"
+            name="phone-number"
+            min="1000000"
+            max="99999999999999"
+          />
+        </label>
+        <label for="mail" id="email-label">
+          <span><h5>Mail</h5></span>
+          <input
+            type="email"
+            id="email"
+            placeholder="Tu mail actual"
+            autocomplete="email"
+            name="email"
+            required
+          />
+        </label>
+        <label class="formulario__contenido-submit" for="submit">
+          <input
+            id="submit"
+            type="submit"
+            value="Consultar"
+            placeholder="Consultar"
+            name="Enviar"
+          />
+        </label>
+      </form>
     </section>
     <footer class="footer">
-        <p> Creado desde cero y con 🧡 por RL. </p>
-        <ul>
-            <li> <a target="_blank" href="https://www.linkedin.com/in/ramiro-lopez-820b68172/"><img src="./asets/logotipo-de-linkedin.svg" alt="linkedin"></a></li>
-            <li> <a  target="_blank" href="https://github.com/ramirolopezr"><img src="./asets/signo-de-github.svg" alt="github"></a></li>
-            <li> <a  target="_blank" href="https://wa.me/5493534245830"><img src="./asets/whatsapp.svg" alt="whatsapp"></a></li>
-        </ul>
+      <p>Creado desde cero y con 🧡 por RL.</p>
+      <ul>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/ramiro-lopez-820b68172/"
+            ><img src="./asets/logotipo-de-linkedin.svg" alt="linkedin"
+          /></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/ramirolopezr"
+            ><img src="./asets/signo-de-github.svg" alt="github"
+          /></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://wa.me/5493534245830"
+            ><img src="./asets/whatsapp.svg" alt="whatsapp"
+          /></a>
+        </li>
+      </ul>
     </footer>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-</body>
+  </body>
 </html>
