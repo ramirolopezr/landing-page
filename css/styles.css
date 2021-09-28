@@ -88,18 +88,21 @@ body {
   background-color: gray; }
 
 .beneficios {
-  padding-top: 13rem;
-  width: 80%;
-  margin: 0 auto; }
+  padding-top: 10rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
   .beneficios__items {
-    display: flex;
-    display: inline-block;
-    padding-bottom: 2rem;
-    text-align: center;
+    display: block;
     align-items: center;
-    font-size: 2.5rem;
+    max-width: 100rem;
+    margin: 0 4rem;
+    padding-bottom: 2rem;
+    border-bottom: solid 0.5rem #c8cfd2;
+    text-align: center;
     font-weight: bold;
-    border-bottom: solid 0.5rem #c8cfd2; }
+    font-size: 2.5rem; }
   .beneficios__items img {
     padding: 2rem;
     height: 14rem; }
@@ -112,10 +115,10 @@ body {
   padding-bottom: 2rem;
   border-bottom: solid 0.5rem #c8cfd2; }
   .video h3 {
+    padding-top: 6rem;
+    padding: 2rem;
     font-size: 2.5rem;
     text-align: center;
-    padding: 2rem;
-    padding-top: 6rem;
     text-decoration: underline; }
   .video iframe {
     border-radius: 1rem; }
