@@ -97,9 +97,6 @@ body {
     display: block;
     align-items: center;
     max-width: 100rem;
-    margin: 0 4rem;
-    padding-bottom: 2rem;
-    border-bottom: solid 0.5rem #c8cfd2;
     text-align: center;
     font-weight: bold;
     font-size: 2.5rem; }
@@ -108,12 +105,13 @@ body {
     height: 14rem; }
 
 .video {
-  width: 100%;
   display: flex;
-  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   text-align: center;
-  padding-bottom: 2rem;
-  border-bottom: solid 0.5rem #c8cfd2; }
+  padding-bottom: 2rem; }
   .video h3 {
     padding-top: 6rem;
     padding: 2rem;
@@ -121,7 +119,19 @@ body {
     text-align: center;
     text-decoration: underline; }
   .video iframe {
+    display: block;
+    margin: 0 auto;
     border-radius: 1rem; }
+
+.line {
+  display: block;
+  height: 0.6rem;
+  width: 100%;
+  max-width: 100rem;
+  background-color: #c8cfd2;
+  border: none;
+  margin: 0 auto;
+  margin-top: 2rem; }
 
 .plans {
   width: 70%;
