@@ -1,43 +1,56 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 html {
+  box-sizing: inherit;
   font-size: 62.5%; }
 
 body {
+  width: 100%;
   min-height: 100vh;
   font-family: "Inria Sans", sans-serif;
-  background-color: #199FBF; }
+  background-color: #199fbf; }
 
 .header {
-  width: 100%;
+  position: fixed;
   display: flex;
-  text-align: center;
-  background-color: #C8CFD2;
   align-items: center;
-  position: fixed; }
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0 1rem;
+  text-align: center;
+  background-color: #c8cfd2; }
   .header__img {
-    width: 10rem;
-    height: 10rem;
-    padding-left: 1.5rem; }
+    padding: 1rem 0;
+    width: 8rem;
+    height: 8rem; }
   .header h1 {
-    font-size: 6rem; }
-  .header__nav ul {
-    margin-left: 39rem;
-    list-style: none;
-    display: flex;
-    justify-content: space-between; }
-  .header__nav-link:hover {
-    text-decoration: underline black 0.2rem solid; }
-
-.nav-link {
-  font-size: 1.9rem;
-  font-family: "Inria Sans", sans-serif;
-  color: black;
-  text-transform: uppercase;
-  margin: 1.5rem; }
+    font-size: 4rem; }
+  .header__nav {
+    margin-left: auto;
+    width: auto; }
+    .header__nav ul {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      list-style: none; }
+      .header__nav ul li {
+        margin-left: 1rem;
+        font-size: 1.9rem;
+        font-family: "Inria Sans", sans-serif;
+        color: black;
+        text-transform: uppercase; }
+        .header__nav ul li a {
+          text-decoration: none;
+          color: black; }
+          .header__nav ul li a:hover {
+            text-decoration: underline black 0.2rem solid; }
+          .header__nav ul li a:visited {
+            color: inherit; }
 
 .formulario {
   margin: 0 auto;
@@ -86,7 +99,7 @@ body {
     align-items: center;
     font-size: 2.5rem;
     font-weight: bold;
-    border-bottom: solid 0.5rem #C8CFD2; }
+    border-bottom: solid 0.5rem #c8cfd2; }
   .beneficios__items img {
     padding: 2rem;
     height: 14rem; }
@@ -97,7 +110,7 @@ body {
   display: inline-block;
   text-align: center;
   padding-bottom: 2rem;
-  border-bottom: solid 0.5rem #C8CFD2; }
+  border-bottom: solid 0.5rem #c8cfd2; }
   .video h3 {
     font-size: 2.5rem;
     text-align: center;
@@ -112,12 +125,12 @@ body {
   margin: 0 auto;
   display: flex;
   padding-bottom: 2rem;
-  border-bottom: solid 0.5rem #C8CFD2; }
+  border-bottom: solid 0.5rem #c8cfd2; }
   .plans div {
     width: 20%;
     min-height: 20rem;
     margin: 5rem;
-    background-color: #C8CFD2;
+    background-color: #c8cfd2;
     color: black;
     font-weight: bold;
     border-radius: 0.3rem; }
