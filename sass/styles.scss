@@ -1,4 +1,6 @@
-body {
-    background-color: gray;
-    font-family: 'Courier New', Courier, monospace;
-}
+@import 'base';
+@import 'header';
+@import 'form';
+@import 'benefits';
+@import 'plans';
+@import 'footer';

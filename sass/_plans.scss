@@ -1,0 +1,66 @@
+.plans {
+width: 70%;
+margin: 0 auto;
+display: flex;
+padding-bottom: 2rem;
+border-bottom: solid 0.5rem $color-texto;
+
+
+
+
+    & div {
+        width: 20%;
+        min-height: 20rem ;
+        margin: 5rem;
+        background-color: $color-texto;
+        color: $color-contraste;
+        font-weight: bold;
+        border-radius: 0.3rem;
+    }
+
+    & h5 {
+        font-size: $titulos;
+        padding-top: 0.5rem;
+        text-align: center;
+        
+    }
+
+    & ul {
+        list-style: none;
+        padding-left: 0.5rem ;
+        font-size: $subtitulos;
+    }
+
+    & h3 {
+        font-size: 3rem;
+        color:chocolate;
+        text-align: center;
+    }
+
+    & p {
+        font-size: 1.5rem;
+        color:$color-contraste;
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+}
+
+.plans__text {
+    display: flex;
+    display: inline-block;
+    align-items: center;
+}
+
+.plans__text:hover {
+    transform: scale(1.2) ;
+    -webkit-transform: scale(1.2) ;
+    -moz-transform: scale(1.2) ;
+}
+
+.plans__text {
+    box-shadow: 3px 10px 17px 1px rgba(0,0,0,0.73);
+-webkit-box-shadow: 3px 10px 17px 1px rgba(0,0,0,0.73);
+-moz-box-shadow: 3px 10px 17px 1px rgba(0,0,0,0.73);
+}

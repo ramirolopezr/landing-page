@@ -1,0 +1,30 @@
+
+
+$fuente-principal: 'Inria Sans', sans-serif; 
+$titulos: 2.5rem;
+$subtitulos: 1.5rem;
+$parrafos: 0.8rem;
+$color-principal: #199FBF;
+$color-texto: #C8CFD2;
+$color-contraste: black;
+
+* {
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  
+  html {
+
+    font-size: 62.5%;
+
+  }
+body {
+    min-height: 100vh;
+    font-family: $fuente-principal;
+    background-color: $color-principal;
+    
+}

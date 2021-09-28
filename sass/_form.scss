@@ -1,0 +1,57 @@
+
+.formulario {
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
+    padding: 2rem;
+
+    &__titulo {
+
+        font-size: $titulos;
+        text-align: center;
+        
+    }
+    &__contenido {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+
+    }
+
+    &__contenido h5 {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    &__contenido input {
+       
+        height: 4rem;
+        min-width: 20rem;
+        border: solid black 0.2rem;
+        border-radius: 1rem;
+        text-align: center;
+        outline: none;
+        
+    }
+
+    &__contenido-submit {
+        margin: 0 auto;
+        min-width: 2rem;
+        max-width: 10rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+
+    }
+ 
+}
+
+#consultar:hover {
+    background-color: gray;
+
+}
+

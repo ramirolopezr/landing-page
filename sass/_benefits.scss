@@ -1,0 +1,51 @@
+.beneficios {
+    padding-top: 13rem;
+    width: 80%;
+    margin: 0 auto;
+
+
+    &__items {
+      
+        display: flex;
+        display: inline-block;
+        padding-bottom: 2rem;
+        text-align: center;
+        align-items: center;
+        font-size: $titulos;
+        font-weight: bold;
+        border-bottom: solid 0.5rem $color-texto;
+
+        
+    }
+
+    &__items img {
+        padding: 2rem;
+        height: 14rem;
+    }
+}
+
+.video {
+    width: 100%;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 2rem;
+    border-bottom: solid 0.5rem $color-texto;
+
+    & h3 {
+        font-size: $titulos;
+        text-align: center;
+        padding: 2rem;
+        padding-top: 6rem;
+        text-decoration: underline;
+    }
+
+
+    & iframe {
+        
+        border-radius: 1rem;
+        
+
+    }
+
+}
